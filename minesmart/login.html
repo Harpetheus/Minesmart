@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script defer="defer" src="scripts/form_validator.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5cbb0217eb.js" crossorigin="anonymous"></script>
+</head>
+<body id="login-background">
+    <main id="login-position">
+        <section id="login-panel">
+            <a class="icon" href="../index.html"><i class="fas fa-home" title="home"></i></a>
+            <form   action="scripts/processing_page.php"
+                            method="post"
+                            class="minesmart_form">
+
+                            
+                           
+                            
+                            <div class="grey"><label for="username"></label></div>
+                                <input type="text"
+                                        placeholder="Username"
+                                        name="username"
+                                        id="username"
+                                        required="required"/>
+
+                            <div class="grey"><label for="password"></label></div>
+                                <input type="password"
+                                        placeholder="Password"
+                                        name="password"
+                                        id="password"
+                                        required="required"/>
+
+                          
+                                <button class="login_button" type="submit">Login</button>
+                               
+                    
+                    </form>
+
+        </section>
+    </main>
+    
+</body>
+</html>
